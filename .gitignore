@@ -1,0 +1,23 @@
+# Secrets and keys
+.env
+secrets/*
+!secrets/README.md
+*.pem
+*.key
+*.p12
+*.pfx
+*.srl
+
+# Backups and encrypted dumps
+backups/
+*.dump
+*.enc
+
+# Python
+__pycache__/
+.venv/
+.pytest_cache/
+
+# Node / frontend build
+node_modules/
+dist/
